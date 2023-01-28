@@ -1,0 +1,26 @@
+{
+    "name": "naqlah/xeone",
+    "description": "theme for laravel naqlah app",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Naqlah\\Xeone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mustafa musta20"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Naqlah\\Xeone\\XeoneServiceProvider"
+            ]
+        }
+    }
+}
